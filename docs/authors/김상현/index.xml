@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>김상현 on Universal</title>
+    <link>https://ckzer.github.io/teamWebPage/authors/%EA%B9%80%EC%83%81%ED%98%84/</link>
+    <description>Recent content in 김상현 on Universal</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 01 Aug 2021 21:29:20 +0200</lastBuildDate><atom:link href="https://ckzer.github.io/teamWebPage/authors/%EA%B9%80%EC%83%81%ED%98%84/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Container</title>
+      <link>https://ckzer.github.io/teamWebPage/container/container-post-1/</link>
+      <pubDate>Sun, 01 Aug 2021 21:29:20 +0200</pubDate>
+      
+      <guid>https://ckzer.github.io/teamWebPage/container/container-post-1/</guid>
+      <description>Container 현대의 소프트웨어 개발과 배포는 더욱 복잡해지고 다양한 요구사항을 충족시키기 위해 진화하고 있습니다. 이러한 환경에서 컨테이너 기술은 혁신적인 솔루션으로 주목받고 있습니다. 이번 글에서는 컨테이너의 개념과 장점에 대해 알아보겠습니다.
+Container란? - OS 수준 가상화 컨테이너는 애플리케이션과 애플리케이션의 종속성을 포함한 모든 필요한 요소를 격리된 환경에서 실행하는 기술입니다. 이는 가상화 기술을 사용하여 호스트 운영 체제에서 분리되고, 필요한 라이브러리와 패키지를 가상화된 환경 내에 포함시킴으로써 실제 운영 환경과의 일관성을 유지할 수 있습니다.
+Container 기술의 장점  일관성 있는 환경 - 종속성과 호환성 충돌 문제 제거 작은 이미지 크기 성능 저하 최소 부팅 필요없이 즉시 실행, 종료 배포 편이성 재사용 용이 다양한 운영 환경 지원  컨테이너 기술은 현대 소프트웨어 개발과 배포에서 중요한 역할을 수행하고 있습니다.</description>
+    </item>
+    
+    <item>
+      <title>Docker</title>
+      <link>https://ckzer.github.io/teamWebPage/container/docker-post/</link>
+      <pubDate>Sun, 01 Aug 2021 21:29:20 +0200</pubDate>
+      
+      <guid>https://ckzer.github.io/teamWebPage/container/docker-post/</guid>
+      <description>Docker 도커는 가장 대표적인 컨테이너 기술을 기반으로한 애플리케이션 실행 및 배포를 위한 오픈 소스 플랫폼입니다. 이번 글에서는 도커의 기본 개념과 구성 요소, 에 대해 설명하고 기본적인 명령어를 알아보겠습니다.
+도커 이미지? 도커 컨테이너? 도커는 이미지(Image)와 컨테이너(Container)라는 기본 개념으로 구성되어 있습니다.
+-도커 이미지(Image): 컨테이너 실행을 위한 읽기 전용 템플릿 파일입니다. 소스코드, 라이브러리, 종속성, 도구 및 응용 프로그램을 실행하는 데 필요한 기타 파일을 포함하는 &amp;lsquo;불변파일&amp;rsquo;이며 특정 시점의 애플리케이션과 가상 환경을 포함합니다. 하나의 이미지로 여러 개의 컨테이너를 실행하는 것이 가능합니단.</description>
+    </item>
+    
+  </channel>
+</rss>
