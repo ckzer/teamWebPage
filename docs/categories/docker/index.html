@@ -7,13 +7,13 @@
 <meta name="googlebot" content="index,follow,snippet,archive">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<title>Migrate from Jekyll</title>
+<title>Docker</title>
 <meta name="author" content="DevCows" />
 
 
 
 
-<meta name="keywords" content="devcows, hugo, go, golang">
+<meta name="keywords" content="devcows, hugo, go">
 
 
 <meta name="description" content="Site template made by Devcows using Hugo">
@@ -36,7 +36,7 @@
 
 
 
-<link href="/teamWebPage/css/custom.css?1685346496" rel="stylesheet">
+<link href="/teamWebPage/css/custom.css?1685353123" rel="stylesheet">
 
 
 
@@ -66,31 +66,31 @@
 
 <meta property="og:locale" content="en_us">
 <meta property="og:site_name" content="Universal">
-<meta property="og:title" content="Migrate from Jekyll">
+<meta property="og:title" content="Docker">
 <meta property="og:type" content="website">
-<meta property="og:url" content="https://ckzer.github.io/teamWebPage/container/migrate-from-jekyll/" />
+<meta property="og:url" content="https://ckzer.github.io/teamWebPage/categories/docker/" />
 <meta property="og:description" content="Site template made by Devcows using Hugo">
-<meta property="og:image" content="https://ckzer.github.io/teamWebPage/img/banners/banner-5.jpg">
-<meta property="og:image:type" content="image/jpg">
+<meta property="og:image" content="https://ckzer.github.io/teamWebPage/img/sharing-default.png">
+<meta property="og:image:type" content="image/png">
 
 
 
-  <meta property="og:image:width" content="1000">
-  <meta property="og:image:height" content="750">
+  <meta property="og:image:width" content="800">
+  <meta property="og:image:height" content="420">
 
 
-
+<meta property="og:updated_time" content="2023-05-27T21:29:20&#43;0200">
 
 
 
 <meta name="twitter:card" content="summary">
 <meta name="twitter:site" content="@GoHugoIO">
-<meta name="twitter:title" content="Migrate from Jekyll">
+<meta name="twitter:title" content="Docker">
 
-<meta name="twitter:image" content="https://ckzer.github.io/teamWebPage/img/banners/banner-5.jpg">
+<meta name="twitter:image" content="https://ckzer.github.io/teamWebPage/img/sharing-default.png">
 
 <meta name="twitter:description" content="Site template made by Devcows using Hugo">
-<meta name="twitter:creator" content="@jekyllrb">
+
 
     
   </head>
@@ -139,10 +139,10 @@
             <div class="navbar-header">
                 <a class="navbar-brand home" href="/teamWebPage/">
                     
-                      <img src="/teamWebPage/img/logo.png" alt="Migrate from Jekyll logo" class="hidden-xs hidden-sm" />
-                      <img src="/teamWebPage/img/logo-small.png" alt="Migrate from Jekyll logo" class="visible-xs visible-sm" />
+                      <img src="/teamWebPage/img/logo.png" alt="Docker logo" class="hidden-xs hidden-sm" />
+                      <img src="/teamWebPage/img/logo-small.png" alt="Docker logo" class="visible-xs visible-sm" />
                     
-                    <span class="sr-only">Migrate from Jekyll - go to homepage</span>
+                    <span class="sr-only">Docker - go to homepage</span>
                 </a>
                 <div class="navbar-buttons">
                     <button type="button" class="navbar-toggle btn-template-main" data-toggle="collapse" data-target="#navigation">
@@ -165,6 +165,14 @@
 
                   
 
+                  
+                    
+                      
+                    
+                      
+                    
+                      
+                    
                   
 
                   
@@ -198,6 +206,16 @@
                   
 
                   
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                  
 
                   
                   <li class="dropdown ">
@@ -212,6 +230,16 @@
 
                   
 
+                  
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
                   
 
                   
@@ -228,6 +256,16 @@
                   
 
                   
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                  
 
                   
                   <li class="dropdown ">
@@ -242,6 +280,16 @@
 
                   
 
+                  
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
                   
 
                   
@@ -258,6 +306,16 @@
                   
 
                   
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                  
 
                   
                   <li class="dropdown ">
@@ -272,6 +330,16 @@
 
                   
 
+                  
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
                   
 
                   
@@ -306,7 +374,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-12">
-                <h1>Migrate from Jekyll</h1>
+                <h1>Docker</h1>
             </div>
         </div>
     </div>
@@ -315,177 +383,96 @@
 
         <div id="content">
             <div class="container">
-
                 <div class="row">
-
                     
 
-                    <div class="col-md-9" id="blog-post">
+                    <div class="col-md-9" id="blog-listing-medium">
 
                         
-
-                        <div id="post-content">
-                          <h2 id="move-static-content-to-static">Move static content to <code>static</code></h2>
-<p>Jekyll has a rule that any directory not starting with <code>_</code> will be copied as-is to the <code>_site</code> output. Hugo keeps all static content under <code>static</code>. You should therefore move it all there.
-With Jekyll, something that looked like</p>
-<pre><code>▾ &lt;root&gt;/
-    ▾ images/
-        logo.png
-</code></pre>
-<p>should become</p>
-<pre><code>▾ &lt;root&gt;/
-    ▾ static/
-        ▾ images/
-            logo.png
-</code></pre>
-<p>Additionally, you&rsquo;ll want any files that should reside at the root (such as <code>CNAME</code>) to be moved to <code>static</code>.</p>
-<h2 id="create-your-hugo-configuration-file">Create your Hugo configuration file</h2>
-<p>Hugo can read your configuration as JSON, YAML or TOML. Hugo supports parameters custom configuration too. Refer to the <a href="/overview/configuration/">Hugo configuration documentation</a> for details.</p>
-<h2 id="set-your-configuration-publish-folder-to-_site">Set your configuration publish folder to <code>_site</code></h2>
-<p>The default is for Jekyll to publish to <code>_site</code> and for Hugo to publish to <code>public</code>. If, like me, you have <a href="http://blog.blindgaenger.net/generate_github_pages_in_a_submodule.html"><code>_site</code> mapped to a git submodule on the <code>gh-pages</code> branch</a>, you&rsquo;ll want to do one of two alternatives:</p>
-<ol>
-<li>
-<p>Change your submodule to point to map <code>gh-pages</code> to public instead of <code>_site</code> (recommended).</p>
-<pre><code> git submodule deinit _site
- git rm _site
- git submodule add -b gh-pages git@github.com:your-username/your-repo.git public
-</code></pre>
-</li>
-<li>
-<p>Or, change the Hugo configuration to use <code>_site</code> instead of <code>public</code>.</p>
-<pre><code> {
-     ..
-     &quot;publishdir&quot;: &quot;_site&quot;,
-     ..
- }
-</code></pre>
-</li>
-</ol>
-<h2 id="convert-jekyll-templates-to-hugo-templates">Convert Jekyll templates to Hugo templates</h2>
-<p>That&rsquo;s the bulk of the work right here. The documentation is your friend. You should refer to <a href="http://jekyllrb.com/docs/templates/">Jekyll&rsquo;s template documentation</a> if you need to refresh your memory on how you built your blog and <a href="/layout/templates/">Hugo&rsquo;s template</a> to learn Hugo&rsquo;s way.</p>
-<p>As a single reference data point, converting my templates for <a href="http://heyitsalex.net/">heyitsalex.net</a> took me no more than a few hours.</p>
-<h2 id="convert-jekyll-plugins-to-hugo-shortcodes">Convert Jekyll plugins to Hugo shortcodes</h2>
-<p>Jekyll has <a href="http://jekyllrb.com/docs/plugins/">plugins</a>; Hugo has <a href="/doc/shortcodes/">shortcodes</a>. It&rsquo;s fairly trivial to do a port.</p>
-<h3 id="implementation">Implementation</h3>
-<p>As an example, I was using a custom <a href="https://github.com/alexandre-normand/alexandre-normand/blob/74bb12036a71334fdb7dba84e073382fc06908ec/_plugins/image_tag.rb"><code>image_tag</code></a> plugin to generate figures with caption when running Jekyll. As I read about shortcodes, I found Hugo had a nice built-in shortcode that does exactly the same thing.</p>
-<p>Jekyll&rsquo;s plugin:</p>
-<pre><code>module Jekyll
-  class ImageTag &lt; Liquid::Tag
-    @url = nil
-    @caption = nil
-    @class = nil
-    @link = nil
-    // Patterns
-    IMAGE_URL_WITH_CLASS_AND_CAPTION =
-    IMAGE_URL_WITH_CLASS_AND_CAPTION_AND_LINK = /(\w+)(\s+)((https?:\/\/|\/)(\S+))(\s+)&quot;(.*?)&quot;(\s+)-&gt;((https?:\/\/|\/)(\S+))(\s*)/i
-    IMAGE_URL_WITH_CAPTION = /((https?:\/\/|\/)(\S+))(\s+)&quot;(.*?)&quot;/i
-    IMAGE_URL_WITH_CLASS = /(\w+)(\s+)((https?:\/\/|\/)(\S+))/i
-    IMAGE_URL = /((https?:\/\/|\/)(\S+))/i
-    def initialize(tag_name, markup, tokens)
-      super
-      if markup =~ IMAGE_URL_WITH_CLASS_AND_CAPTION_AND_LINK
-        @class   = $1
-        @url     = $3
-        @caption = $7
-        @link = $9
-      elsif markup =~ IMAGE_URL_WITH_CLASS_AND_CAPTION
-        @class   = $1
-        @url     = $3
-        @caption = $7
-      elsif markup =~ IMAGE_URL_WITH_CAPTION
-        @url     = $1
-        @caption = $5
-      elsif markup =~ IMAGE_URL_WITH_CLASS
-        @class = $1
-        @url   = $3
-      elsif markup =~ IMAGE_URL
-        @url = $1
-      end
-    end
-    def render(context)
-      if @class
-        source = &quot;&lt;figure class='#{@class}'&gt;&quot;
-      else
-        source = &quot;&lt;figure&gt;&quot;
-      end
-      if @link
-        source += &quot;&lt;a href=\&quot;#{@link}\&quot;&gt;&quot;
-      end
-      source += &quot;&lt;img src=\&quot;#{@url}\&quot;&gt;&quot;
-      if @link
-        source += &quot;&lt;/a&gt;&quot;
-      end
-      source += &quot;&lt;figcaption&gt;#{@caption}&lt;/figcaption&gt;&quot; if @caption
-      source += &quot;&lt;/figure&gt;&quot;
-      source
-    end
-  end
-end
-Liquid::Template.register_tag('image', Jekyll::ImageTag)
-</code></pre>
-<p>is written as this Hugo shortcode:</p>
-<pre><code>&lt;!-- image --&gt;
-&lt;figure {{ with .Get &quot;class&quot; }}class=&quot;{{.}}&quot;{{ end }}&gt;
-    {{ with .Get &quot;link&quot;}}&lt;a href=&quot;{{.}}&quot;&gt;{{ end }}
-        &lt;img src=&quot;{{ .Get &quot;src&quot; }}&quot; {{ if or (.Get &quot;alt&quot;) (.Get &quot;caption&quot;) }}alt=&quot;{{ with .Get &quot;alt&quot;}}{{.}}{{else}}{{ .Get &quot;caption&quot; }}{{ end }}&quot;{{ end }} /&gt;
-    {{ if .Get &quot;link&quot;}}&lt;/a&gt;{{ end }}
-    {{ if or (or (.Get &quot;title&quot;) (.Get &quot;caption&quot;)) (.Get &quot;attr&quot;)}}
-    &lt;figcaption&gt;{{ if isset .Params &quot;title&quot; }}
-        {{ .Get &quot;title&quot; }}{{ end }}
-        {{ if or (.Get &quot;caption&quot;) (.Get &quot;attr&quot;)}}&lt;p&gt;
-        {{ .Get &quot;caption&quot; }}
-        {{ with .Get &quot;attrlink&quot;}}&lt;a href=&quot;{{.}}&quot;&gt; {{ end }}
-            {{ .Get &quot;attr&quot; }}
-        {{ if .Get &quot;attrlink&quot;}}&lt;/a&gt; {{ end }}
-        &lt;/p&gt; {{ end }}
-    &lt;/figcaption&gt;
-    {{ end }}
-&lt;/figure&gt;
-&lt;!-- image --&gt;
-</code></pre>
-<h3 id="usage">Usage</h3>
-<p>I simply changed:</p>
-<pre><code>{% image full http://farm5.staticflickr.com/4136/4829260124_57712e570a_o_d.jpg &quot;One of my favorite touristy-type photos. I secretly waited for the good light while we were &quot;having fun&quot; and took this. Only regret: a stupid pole in the top-left corner of the frame I had to clumsily get rid of at post-processing.&quot; -&gt;http://www.flickr.com/photos/alexnormand/4829260124/in/set-72157624547713078/ %}
-</code></pre>
-<p>to this (this example uses a slightly extended version named <code>fig</code>, different than the built-in <code>figure</code>):</p>
-<pre><code>{{% fig class=&quot;full&quot; src=&quot;http://farm5.staticflickr.com/4136/4829260124_57712e570a_o_d.jpg&quot; title=&quot;One of my favorite touristy-type photos. I secretly waited for the good light while we were having fun and took this. Only regret: a stupid pole in the top-left corner of the frame I had to clumsily get rid of at post-processing.&quot; link=&quot;http://www.flickr.com/photos/alexnormand/4829260124/in/set-72157624547713078/&quot; %}}
-</code></pre>
-<p>As a bonus, the shortcode named parameters are, arguably, more readable.</p>
-<h2 id="finishing-touches">Finishing touches</h2>
-<h3 id="fix-content">Fix content</h3>
-<p>Depending on the amount of customization that was done with each post with Jekyll, this step will require more or less effort. There are no hard and fast rules here except that <code>hugo server --watch</code> is your friend. Test your changes and fix errors as needed.</p>
-<h3 id="clean-up">Clean up</h3>
-<p>You&rsquo;ll want to remove the Jekyll configuration at this point. If you have anything else that isn&rsquo;t used, delete it.</p>
-<h2 id="a-practical-example-in-a-diff">A practical example in a diff</h2>
-<p><a href="http://heyitsalex.net/">Hey, it&rsquo;s Alex</a> was migrated in less than a <em>father-with-kids day</em> from Jekyll to Hugo. You can see all the changes (and screw-ups) by looking at this <a href="https://github.com/alexandre-normand/alexandre-normand/compare/869d69435bd2665c3fbf5b5c78d4c22759d7613a...b7f6605b1265e83b4b81495423294208cc74d610">diff</a>.</p>
-
-                        </div>
                         
-                        
-                        <div id="comments">
-                            <div id="disqus_thread"></div>
-<script type="application/javascript">
-    var disqus_config = function () {
-    
-    
-    
-    };
-    (function() {
-        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
-            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
-            return;
-        }
-        var d = document, s = d.createElement('script'); s.async = true;
-        s.src = '//' + "devcows" + '.disqus.com/embed.js';
-        s.setAttribute('data-timestamp', +new Date());
-        (d.head || d.body).appendChild(s);
-    })();
-</script>
-<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
-                        </div>
+                        <section class="post">
+                            <div class="row">
+                                <div class="col-md-4">
+                                  <div class="image">
+                                      <a href="https://ckzer.github.io/teamWebPage/container/docker/">
+                                          
+                                          <img src="https://blog.kakaocdn.net/dn/c1t5eL/btq6Be6MkCH/iyrDAZokksliOkzVASyauK/img.png" class="img-responsive" alt="">
+                                          
+                                      </a>
+                                  </div>
+                                </div>
+                                <div class="col-md-8">
+                                    <h2><a href="https://ckzer.github.io/teamWebPage/container/docker/">Docker</a></h2>
+                                    <div class="clearfix">
+                                        <p class="author-category">
+                                          
+					  By <a href="/teamWebPage/authors/%EA%B9%80%EC%83%81%ED%98%84">김상현</a>
+                                          
+                                          
+                                          
+                                          in 
+                                          
+                                              <a href="/teamWebPage/categories/container">Container</a>, 
+                                              <a href="/teamWebPage/categories/docker">Docker</a>
+                                          
+                                          
+
+                                        </p>
+                                        
+
+                                        
+                                        
+                                            
+                                        
+                                            
+                                        
+                                            
+                                        
+                                            
+                                        
+                                            
+                                        
+                                            
+                                        
+                                            
+                                        
+                                            
+                                        
+                                            
+                                        
+                                            
+                                        
+                                            
+                                        
+                                            
+                                        
+
+                                        <p class="date-comments">
+                                            <a href="https://ckzer.github.io/teamWebPage/container/docker/"><i class="far fa-calendar"></i> May 27, 2023</a>
+                                        </p>
+                                        
+                                    </div>
+                                    
+                                    <p class="intro">Docker 도커는 가장 대표적인 컨테이너 기술을 기반으로한 애플리케이션 실행 및 배포를 위한 오픈 소스 플랫폼입니다. 이번 글에서는 도커의 기본 개념과 구성 요소, 에 대해 설명하고 기본적인 명령어를 알아보겠습니다.
+도커 이미지? 도커 컨테이너? 도커는 이미지(Image)와 컨테이너(Container)라는 기본 개념으로 구성되어 있습니다.
+-도커 이미지(Image): 컨테이너 실행을 위한 읽기 전용 템플릿 파일입니다. 소스코드, 라이브러리, 종속성, 도구 및 응용 프로그램을 실행하는 데 필요한 기타 파일을 포함하는 &lsquo;불변파일&rsquo;이며 특정 시점의 애플리케이션과 가상 환경을 포함합니다. 하나의 이미지로 여러 개의 컨테이너를 실행하는 것이 가능합니단.</p>
+                                    <p class="read-more"><a href="https://ckzer.github.io/teamWebPage/container/docker/" class="btn btn-template-main">Continue reading</a>
+                                    </p>
+                                    
+                                </div>
+                            </div>
+                        </section>
                         
 
+                        <ul class="pager">
+                            
+                            <li class="previous disabled"><a href="#">&larr; Newer</a></li>
+                            
+
+                            
+                            <li class="next disabled"><a href="#">Older &rarr;</a></li>
+                            
+                        </ul>
                     </div>
                     
 
@@ -535,6 +522,14 @@ Liquid::Template.register_tag('image', Jekyll::ImageTag)
             
             
             <li>
+                <a href="/teamWebPage/categories/container">CONTAINER (2)</a>
+            </li>
+            
+            <li>
+                <a href="/teamWebPage/categories/docker">DOCKER (1)</a>
+            </li>
+            
+            <li>
                 <a href="/teamWebPage/categories/git">GIT (2)</a>
             </li>
             
@@ -543,19 +538,19 @@ Liquid::Template.register_tag('image', Jekyll::ImageTag)
             </li>
             
             <li>
-                <a href="/teamWebPage/categories/lorem">LOREM (4)</a>
+                <a href="/teamWebPage/categories/lorem">LOREM (2)</a>
             </li>
             
             <li>
-                <a href="/teamWebPage/categories/programming">PROGRAMMING (6)</a>
+                <a href="/teamWebPage/categories/programming">PROGRAMMING (3)</a>
             </li>
             
             <li>
-                <a href="/teamWebPage/categories/pseudo">PSEUDO (4)</a>
+                <a href="/teamWebPage/categories/pseudo">PSEUDO (2)</a>
             </li>
             
             <li>
-                <a href="/teamWebPage/categories/starting">STARTING (2)</a>
+                <a href="/teamWebPage/categories/starting">STARTING (1)</a>
             </li>
             
         </ul>
@@ -635,7 +630,6 @@ Liquid::Template.register_tag('image', Jekyll::ImageTag)
 
                 </div>
                 
-
             </div>
             
         </div>
@@ -691,14 +685,14 @@ Liquid::Template.register_tag('image', Jekyll::ImageTag)
                 
                 <div class="item same-height-row clearfix">
                     <div class="image same-height-always">
-                        <a href="https://ckzer.github.io/teamWebPage/linux/linux-post1/">
+                        <a href="https://ckzer.github.io/teamWebPage/container/container/">
                           
-                            <img src="/teamWebPage/img/banners/Linux/Linux_banner-1.webp" class="img-responsive" alt="Linux 개요">
+                            <img src="https://i0.wp.com/www.opennaru.com/wp-content/uploads/2020/10/Move_To_Container.png?fit=495%2C400" class="img-responsive" alt="Container">
                           
                         </a>
                     </div>
                     <div class="name same-height-always">
-                        <h5><a href="https://ckzer.github.io/teamWebPage/linux/linux-post1/">Linux 개요</a></h5>
+                        <h5><a href="https://ckzer.github.io/teamWebPage/container/container/">Container</a></h5>
                     </div>
                 </div>
                 
