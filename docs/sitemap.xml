@@ -8,6 +8,12 @@
     <loc>https://ckzer.github.io/teamWebPage/categories/</loc>
     <lastmod>2023-05-28T21:29:20+02:00</lastmod>
   </url><url>
+    <loc>https://ckzer.github.io/teamWebPage/web/css-post/</loc>
+    <lastmod>2023-05-28T21:29:20+02:00</lastmod>
+  </url><url>
+    <loc>https://ckzer.github.io/teamWebPage/categories/css/</loc>
+    <lastmod>2023-05-28T21:29:20+02:00</lastmod>
+  </url><url>
     <loc>https://ckzer.github.io/teamWebPage/categories/git/</loc>
     <lastmod>2023-05-28T21:29:20+02:00</lastmod>
   </url><url>
@@ -21,6 +27,12 @@
     <lastmod>2023-05-28T21:29:20+02:00</lastmod>
   </url><url>
     <loc>https://ckzer.github.io/teamWebPage/tags/golang/</loc>
+    <lastmod>2023-05-28T21:29:20+02:00</lastmod>
+  </url><url>
+    <loc>https://ckzer.github.io/teamWebPage/web/html-post/</loc>
+    <lastmod>2023-05-28T21:29:20+02:00</lastmod>
+  </url><url>
+    <loc>https://ckzer.github.io/teamWebPage/categories/html/</loc>
     <lastmod>2023-05-28T21:29:20+02:00</lastmod>
   </url><url>
     <loc>https://ckzer.github.io/teamWebPage/tags/hugo/</loc>
@@ -38,7 +50,16 @@
     <loc>https://ckzer.github.io/teamWebPage/</loc>
     <lastmod>2023-05-28T21:29:20+02:00</lastmod>
   </url><url>
+    <loc>https://ckzer.github.io/teamWebPage/web/</loc>
+    <lastmod>2023-05-28T21:29:20+02:00</lastmod>
+  </url><url>
+    <loc>https://ckzer.github.io/teamWebPage/categories/web/</loc>
+    <lastmod>2023-05-28T21:29:20+02:00</lastmod>
+  </url><url>
     <loc>https://ckzer.github.io/teamWebPage/authors/%EC%A1%B0%EC%98%81%EC%84%9C/</loc>
+    <lastmod>2023-05-28T21:29:20+02:00</lastmod>
+  </url><url>
+    <loc>https://ckzer.github.io/teamWebPage/authors/%EC%B5%9C%EC%88%98%EB%B9%88/</loc>
     <lastmod>2023-05-28T21:29:20+02:00</lastmod>
   </url><url>
     <loc>https://ckzer.github.io/teamWebPage/categories/container/</loc>
@@ -83,55 +104,8 @@
     <loc>https://ckzer.github.io/teamWebPage/authors/%EA%B9%80%EB%AF%BC%EC%88%98/</loc>
     <lastmod>2023-05-22T18:26:23+09:00</lastmod>
   </url><url>
-    <loc>https://ckzer.github.io/teamWebPage/web/categories-post/</loc>
-    <lastmod>2021-08-01T21:29:20+02:00</lastmod>
-  </url><url>
-    <loc>https://ckzer.github.io/teamWebPage/authors/john-doe/</loc>
-    <lastmod>2021-08-01T21:29:20+02:00</lastmod>
-  </url><url>
-    <loc>https://ckzer.github.io/teamWebPage/categories/lorem/</loc>
-    <lastmod>2021-08-01T21:29:20+02:00</lastmod>
-  </url><url>
-    <loc>https://ckzer.github.io/teamWebPage/categories/programming/</loc>
-    <lastmod>2021-08-01T21:29:20+02:00</lastmod>
-  </url><url>
-    <loc>https://ckzer.github.io/teamWebPage/categories/pseudo/</loc>
-    <lastmod>2021-08-01T21:29:20+02:00</lastmod>
-  </url><url>
-    <loc>https://ckzer.github.io/teamWebPage/web/</loc>
-    <lastmod>2021-08-01T21:29:20+02:00</lastmod>
-  </url><url>
-    <loc>https://ckzer.github.io/teamWebPage/authors/jane-doe/</loc>
-    <lastmod>2015-10-02T21:49:20+02:00</lastmod>
-  </url><url>
-    <loc>https://ckzer.github.io/teamWebPage/web/linked-post/</loc>
-    <lastmod>2015-10-02T21:49:20+02:00</lastmod>
-  </url><url>
-    <loc>https://ckzer.github.io/teamWebPage/tags/go/</loc>
-    <lastmod>2015-09-17T13:47:08+02:00</lastmod>
-  </url><url>
-    <loc>https://ckzer.github.io/teamWebPage/web/go-is-for-lovers/</loc>
-    <lastmod>2015-09-17T13:47:08+02:00</lastmod>
-  </url><url>
-    <loc>https://ckzer.github.io/teamWebPage/web/hugo-is-for-lovers/</loc>
-    <lastmod>2015-08-03T13:39:46+02:00</lastmod>
-  </url><url>
-    <loc>https://ckzer.github.io/teamWebPage/web/creating-a-new-theme/</loc>
-    <lastmod>2015-06-24T13:50:46+02:00</lastmod>
-  </url><url>
-    <loc>https://ckzer.github.io/teamWebPage/categories/starting/</loc>
-    <lastmod>2015-06-24T13:50:46+02:00</lastmod>
-  </url><url>
     <loc>https://ckzer.github.io/teamWebPage/contact/</loc>
   </url><url>
-    <loc>https://ckzer.github.io/teamWebPage/web/contact/</loc>
-  </url><url>
     <loc>https://ckzer.github.io/teamWebPage/faq/</loc>
-  </url><url>
-    <loc>https://ckzer.github.io/teamWebPage/web/faq/</loc>
-  </url><url>
-    <loc>https://ckzer.github.io/teamWebPage/tags/ipsum/</loc>
-  </url><url>
-    <loc>https://ckzer.github.io/teamWebPage/web/migrate-from-jekyll/</loc>
   </url>
 </urlset>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>css on Universal</title>
+    <link>https://ckzer.github.io/teamWebPage/categories/css/</link>
+    <description>Recent content in css on Universal</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 28 May 2023 21:29:20 +0200</lastBuildDate><atom:link href="https://ckzer.github.io/teamWebPage/categories/css/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>CSS</title>
+      <link>https://ckzer.github.io/teamWebPage/web/css-post/</link>
+      <pubDate>Sun, 28 May 2023 21:29:20 +0200</pubDate>
+      
+      <guid>https://ckzer.github.io/teamWebPage/web/css-post/</guid>
+      <description>CSS란?  CSS는 Cascading Style Sheets의 약자로 기본적인 스타일이 이미 지정된 HTML 요소를 개발자가 직접 다양한 스타일로 디자인할 수 있는 언어입니다.
+CSS는 HTML과 함께 웹을 구성하는 기본 프로그래밍 요소 입니다. HTML이 텍스트나 이미지, 표와 같은 구성 요소를 웹 문서에 넣어 뼈대를 만드는 것이라면 CSS는 색상이나 크기, 이미지 크기나 위치, 배치 방법 등 웹 문서의 디자인 요소를 담당 합니다.
+ CSS는 Cascading Style Sheet의 약어. CSS는 HTML로 부터 디자인적인 요소를 분리해 정의할 수 있음.</description>
+    </item>
+    
+  </channel>
+</rss>

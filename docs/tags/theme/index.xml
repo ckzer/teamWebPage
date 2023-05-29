@@ -8,6 +8,17 @@
     <language>en-us</language>
     <lastBuildDate>Sun, 28 May 2023 21:29:20 +0200</lastBuildDate><atom:link href="https://ckzer.github.io/teamWebPage/tags/theme/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>CSS</title>
+      <link>https://ckzer.github.io/teamWebPage/web/css-post/</link>
+      <pubDate>Sun, 28 May 2023 21:29:20 +0200</pubDate>
+      
+      <guid>https://ckzer.github.io/teamWebPage/web/css-post/</guid>
+      <description>CSS란?  CSS는 Cascading Style Sheets의 약자로 기본적인 스타일이 이미 지정된 HTML 요소를 개발자가 직접 다양한 스타일로 디자인할 수 있는 언어입니다.
+CSS는 HTML과 함께 웹을 구성하는 기본 프로그래밍 요소 입니다. HTML이 텍스트나 이미지, 표와 같은 구성 요소를 웹 문서에 넣어 뼈대를 만드는 것이라면 CSS는 색상이나 크기, 이미지 크기나 위치, 배치 방법 등 웹 문서의 디자인 요소를 담당 합니다.
+ CSS는 Cascading Style Sheet의 약어. CSS는 HTML로 부터 디자인적인 요소를 분리해 정의할 수 있음.</description>
+    </item>
+    
+    <item>
       <title>GIT 개요와 사용법</title>
       <link>https://ckzer.github.io/teamWebPage/git/git-post1/</link>
       <pubDate>Sun, 28 May 2023 21:29:20 +0200</pubDate>
@@ -23,6 +34,16 @@
       
       <guid>https://ckzer.github.io/teamWebPage/git/git-post2/</guid>
       <description>GITHUB  git을 기반으로 한 원격 저장소 호스팅 서비스 계정을 만들고 사용 라이선스: GPL V2.0 &amp;ldquo;2FA&amp;rdquo;(투팩터 인증)을 설정 ssh key 생성과 계정에 추가  보안 설정과 ssh키 저장  &amp;ldquo;2FA&amp;rdquo;(투팩터 인증)을 설정 SSH key 추가  WSL에서 키를 생성한 후 공개키를 복사하여 github에 등록    저장소 만들기 &amp;amp; clone  github에서 repository 생성 원격 저장소 clone  clone URL 복사 WSL에서 작업  cd ~/projects git clone       markdown 목록 번호 있는 목록 : 내림차순 정렬  첫번째 세번째 두번째  번호 없는 목록 : *, -, +  첫번째   세번째   두번째    빨강 녹색 파랑  강조 single asterisks single underscores double asterisks double underscores cancelline</description>
+    </item>
+    
+    <item>
+      <title>HTML</title>
+      <link>https://ckzer.github.io/teamWebPage/web/html-post/</link>
+      <pubDate>Sun, 28 May 2023 21:29:20 +0200</pubDate>
+      
+      <guid>https://ckzer.github.io/teamWebPage/web/html-post/</guid>
+      <description>HTML이란?  HTML은 Hypertext Markup Language의 약자로 웹 페이지를 만드는 데 사용하는 언어입니다. 따라서 우리가 브라우저를 통해 보는 페이지는 모두 HTML로 작성되어 있습니다.
+HTML에서 Hypertext의 의미는 링크를 통해 다른 문서로 이동할 수 있는 문서를 뜻합니다. 하이퍼텍스트라는 개념이 등장하기 전에는 방대한 양의 문서를 효율적으로 다루기 위해 색인 또는 다양한 문서 분류법이 사용되었습니다. 하지만 웹이 등장하면서 HTML 문서를 이용해 문서 간의 참조가 자유로워짐에 따라 특정 단어가 담긴 문서를 쉽게 검색할 수 있게 되었습니다.</description>
     </item>
     
     <item>
@@ -45,36 +66,6 @@ Container 기술의 장점  일관성 있는 환경 - 종속성과 호환성 충
       <description>Docker 도커는 가장 대표적인 컨테이너 기술을 기반으로한 애플리케이션 실행 및 배포를 위한 오픈 소스 플랫폼입니다. 이번 글에서는 도커의 기본 개념과 구성 요소, 에 대해 설명하고 기본적인 명령어를 알아보겠습니다.
 도커 이미지? 도커 컨테이너? 도커는 이미지(Image)와 컨테이너(Container)라는 기본 개념으로 구성되어 있습니다.
 -도커 이미지(Image): 컨테이너 실행을 위한 읽기 전용 템플릿 파일입니다. 소스코드, 라이브러리, 종속성, 도구 및 응용 프로그램을 실행하는 데 필요한 기타 파일을 포함하는 &amp;lsquo;불변파일&amp;rsquo;이며 특정 시점의 애플리케이션과 가상 환경을 포함합니다. 하나의 이미지로 여러 개의 컨테이너를 실행하는 것이 가능합니단.</description>
-    </item>
-    
-    <item>
-      <title>Categories Post</title>
-      <link>https://ckzer.github.io/teamWebPage/web/categories-post/</link>
-      <pubDate>Sun, 01 Aug 2021 21:29:20 +0200</pubDate>
-      
-      <guid>https://ckzer.github.io/teamWebPage/web/categories-post/</guid>
-      <description>I&amp;rsquo;m a post with multiple categories in the frontmatter:
-categories = [&amp;quot;programming&amp;quot;,&amp;quot;lorem&amp;quot;,&amp;quot;pseudo&amp;quot;]  Lorem ipsum dolor sit amet, consectetur adipiscing elit. In mauris nulla, vestibulum vel auctor sed, posuere eu lorem. Aliquam consequat augue ut accumsan mollis. Suspendisse malesuada sodales tincidunt. Vivamus sed erat ac augue bibendum porta sed id ipsum. Ut mollis mauris eget ligula sagittis cursus. Aliquam id pharetra tellus. Pellentesque sed tempus risus. Proin id hendrerit ante. Vestibulum vitae urna ut mauris ultricies dignissim.</description>
-    </item>
-    
-    <item>
-      <title>Linked post</title>
-      <link>https://ckzer.github.io/teamWebPage/web/linked-post/</link>
-      <pubDate>Fri, 02 Oct 2015 21:49:20 +0200</pubDate>
-      
-      <guid>https://ckzer.github.io/teamWebPage/web/linked-post/</guid>
-      <description>I&amp;rsquo;m a linked post in the menu. You can add other posts by adding the following line to the frontmatter:
-menu = &amp;quot;main&amp;quot;  Lorem ipsum dolor sit amet, consectetur adipiscing elit. In mauris nulla, vestibulum vel auctor sed, posuere eu lorem. Aliquam consequat augue ut accumsan mollis. Suspendisse malesuada sodales tincidunt. Vivamus sed erat ac augue bibendum porta sed id ipsum. Ut mollis mauris eget ligula sagittis cursus. Aliquam id pharetra tellus.</description>
-    </item>
-    
-    <item>
-      <title>Creating a new theme</title>
-      <link>https://ckzer.github.io/teamWebPage/web/creating-a-new-theme/</link>
-      <pubDate>Wed, 24 Jun 2015 13:50:46 +0200</pubDate>
-      
-      <guid>https://ckzer.github.io/teamWebPage/web/creating-a-new-theme/</guid>
-      <description>Introduction This tutorial will show you how to create a simple theme in Hugo. I assume that you are familiar with HTML, the bash command line, and that you are comfortable using Markdown to format content. I&amp;rsquo;ll explain how Hugo uses templates and how you can organize your templates to create a theme. I won&amp;rsquo;t cover using CSS to style your theme.
-We&amp;rsquo;ll start with creating a new site with a very basic template.</description>
     </item>
     
   </channel>
