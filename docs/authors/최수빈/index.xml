@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>최수빈 on Universal</title>
+    <link>https://ckzer.github.io/teamWebPage/authors/%EC%B5%9C%EC%88%98%EB%B9%88/</link>
+    <description>Recent content in 최수빈 on Universal</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 28 May 2023 21:29:20 +0200</lastBuildDate><atom:link href="https://ckzer.github.io/teamWebPage/authors/%EC%B5%9C%EC%88%98%EB%B9%88/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>CSS</title>
+      <link>https://ckzer.github.io/teamWebPage/web/css-post/</link>
+      <pubDate>Sun, 28 May 2023 21:29:20 +0200</pubDate>
+      
+      <guid>https://ckzer.github.io/teamWebPage/web/css-post/</guid>
+      <description>CSS란?  CSS는 Cascading Style Sheets의 약자로 기본적인 스타일이 이미 지정된 HTML 요소를 개발자가 직접 다양한 스타일로 디자인할 수 있는 언어입니다.
+CSS는 HTML과 함께 웹을 구성하는 기본 프로그래밍 요소 입니다. HTML이 텍스트나 이미지, 표와 같은 구성 요소를 웹 문서에 넣어 뼈대를 만드는 것이라면 CSS는 색상이나 크기, 이미지 크기나 위치, 배치 방법 등 웹 문서의 디자인 요소를 담당 합니다.
+ CSS는 Cascading Style Sheet의 약어. CSS는 HTML로 부터 디자인적인 요소를 분리해 정의할 수 있음.</description>
+    </item>
+    
+    <item>
+      <title>HTML</title>
+      <link>https://ckzer.github.io/teamWebPage/web/html-post/</link>
+      <pubDate>Sun, 28 May 2023 21:29:20 +0200</pubDate>
+      
+      <guid>https://ckzer.github.io/teamWebPage/web/html-post/</guid>
+      <description>HTML이란?  HTML은 Hypertext Markup Language의 약자로 웹 페이지를 만드는 데 사용하는 언어입니다. 따라서 우리가 브라우저를 통해 보는 페이지는 모두 HTML로 작성되어 있습니다.
+HTML에서 Hypertext의 의미는 링크를 통해 다른 문서로 이동할 수 있는 문서를 뜻합니다. 하이퍼텍스트라는 개념이 등장하기 전에는 방대한 양의 문서를 효율적으로 다루기 위해 색인 또는 다양한 문서 분류법이 사용되었습니다. 하지만 웹이 등장하면서 HTML 문서를 이용해 문서 간의 참조가 자유로워짐에 따라 특정 단어가 담긴 문서를 쉽게 검색할 수 있게 되었습니다.</description>
+    </item>
+    
+  </channel>
+</rss>
