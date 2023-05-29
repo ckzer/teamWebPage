@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Git on Universal</title>
-    <link>https://ckzer.github.io/teamWebPage/git/</link>
-    <description>Recent content in Git on Universal</description>
+    <title>GIT on Universal</title>
+    <link>https://ckzer.github.io/teamWebPage/categories/git/</link>
+    <description>Recent content in GIT on Universal</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 28 May 2023 21:29:20 +0200</lastBuildDate><atom:link href="https://ckzer.github.io/teamWebPage/git/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 28 May 2023 21:29:20 +0200</lastBuildDate><atom:link href="https://ckzer.github.io/teamWebPage/categories/git/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>GIT 개요와 사용법</title>
       <link>https://ckzer.github.io/teamWebPage/git/git-post1/</link>
