@@ -6,23 +6,31 @@
     <description>Recent content in programming on Universal</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 01 Aug 2021 21:29:20 +0200</lastBuildDate><atom:link href="https://ckzer.github.io/teamWebPage/tags/programming/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 28 May 2023 21:29:20 +0200</lastBuildDate><atom:link href="https://ckzer.github.io/teamWebPage/tags/programming/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>GIT 개요와 사용법</title>
+      <link>https://ckzer.github.io/teamWebPage/git/git-post1/</link>
+      <pubDate>Sun, 28 May 2023 21:29:20 +0200</pubDate>
+      
+      <guid>https://ckzer.github.io/teamWebPage/git/git-post1/</guid>
+      <description>GIT 개요  분산 버전 관리 시스템 2005년 리누스 토발즈가 개발 라이선스: GPL V2.0 개발배경  2002년부터 리눅스 버전 관리시스템으로 BitKeeper(BitMover사의 상용 SW, 2016년 오픈소스, 개발 중단) 사용 BitMover사가 리눅스 개발자들이 무료로 사용할 수 있도록 하였으나, 앤드루 트리젤이 비슷한 소스 풀러를 만들면서 리눅스 개발자들에 대한 무료 사용을 철회 리누스 토발즈가 다른 오픈소스 버전관리 시스템을 사용하려 하였으나 당시 원하는 기능을 만족하는 SW가 없어서 직접 만들게 됨 그 후 리눅스 버전 관리 시스템으로 사용되면 현재 가장 많이 사용되는 버전 관리 시스템이 됨    GIT 목표  빠른 속도 단순한 구조 비선형적 개발(동시 다발적 브랜치) 완벽한 분산 Linux 커널 같은 대형 프로젝트에서 유용  GIT CLI GIT을 사용하는 방법  git CLI 다양한 GUI 지원 SW 존재 git의 모든 기능을 지원하는 SW는 git CLI  GIT 설치  리눅스에는 기본적으로 설치되어 있음 없을 경우 sudo apt install git  작업 디렉토리 생성  ex) mkdir -p ~/projects/w11/git-ex  git 저장소 생성  git init : 작업 디렉토리 git 저장소로 초기화 git branch : 브랜치 보기, 기본 브랜치는 main  git 업그레이드  sudo add-apt-repository ppa:git-core/ppa -y sudo apt update sudo apt install git -y  git 저장소 재생성  git 저장소 삭제 &amp;amp; 디렉토리 삭제 git init 실행 브랜치 확인  GIT CLI 사용법 소스 관리   관리 대상 여부</description>
+    </item>
+    
+    <item>
+      <title>GITHUB</title>
+      <link>https://ckzer.github.io/teamWebPage/git/git-post2/</link>
+      <pubDate>Sun, 28 May 2023 21:29:20 +0200</pubDate>
+      
+      <guid>https://ckzer.github.io/teamWebPage/git/git-post2/</guid>
+      <description>GITHUB  git을 기반으로 한 원격 저장소 호스팅 서비스 계정을 만들고 사용 라이선스: GPL V2.0 &amp;ldquo;2FA&amp;rdquo;(투팩터 인증)을 설정 ssh key 생성과 계정에 추가  보안 설정과 ssh키 저장  &amp;ldquo;2FA&amp;rdquo;(투팩터 인증)을 설정 SSH key 추가  WSL에서 키를 생성한 후 공개키를 복사하여 github에 등록    저장소 만들기 &amp;amp; clone  github에서 repository 생성 원격 저장소 clone  clone URL 복사 WSL에서 작업  cd ~/projects git clone       markdown 목록 번호 있는 목록 : 내림차순 정렬  첫번째 세번째 두번째  번호 없는 목록 : *, -, +  첫번째   세번째   두번째    빨강 녹색 파랑  강조 single asterisks single underscores double asterisks double underscores cancelline</description>
+    </item>
+    
     <item>
       <title>Categories Post</title>
       <link>https://ckzer.github.io/teamWebPage/container/categories-post/</link>
       <pubDate>Sun, 01 Aug 2021 21:29:20 +0200</pubDate>
       
       <guid>https://ckzer.github.io/teamWebPage/container/categories-post/</guid>
-      <description>I&amp;rsquo;m a post with multiple categories in the frontmatter:
-categories = [&amp;quot;programming&amp;quot;,&amp;quot;lorem&amp;quot;,&amp;quot;pseudo&amp;quot;]  Lorem ipsum dolor sit amet, consectetur adipiscing elit. In mauris nulla, vestibulum vel auctor sed, posuere eu lorem. Aliquam consequat augue ut accumsan mollis. Suspendisse malesuada sodales tincidunt. Vivamus sed erat ac augue bibendum porta sed id ipsum. Ut mollis mauris eget ligula sagittis cursus. Aliquam id pharetra tellus. Pellentesque sed tempus risus. Proin id hendrerit ante. Vestibulum vitae urna ut mauris ultricies dignissim.</description>
-    </item>
-    
-    <item>
-      <title>Categories Post</title>
-      <link>https://ckzer.github.io/teamWebPage/git/categories-post/</link>
-      <pubDate>Sun, 01 Aug 2021 21:29:20 +0200</pubDate>
-      
-      <guid>https://ckzer.github.io/teamWebPage/git/categories-post/</guid>
       <description>I&amp;rsquo;m a post with multiple categories in the frontmatter:
 categories = [&amp;quot;programming&amp;quot;,&amp;quot;lorem&amp;quot;,&amp;quot;pseudo&amp;quot;]  Lorem ipsum dolor sit amet, consectetur adipiscing elit. In mauris nulla, vestibulum vel auctor sed, posuere eu lorem. Aliquam consequat augue ut accumsan mollis. Suspendisse malesuada sodales tincidunt. Vivamus sed erat ac augue bibendum porta sed id ipsum. Ut mollis mauris eget ligula sagittis cursus. Aliquam id pharetra tellus. Pellentesque sed tempus risus. Proin id hendrerit ante. Vestibulum vitae urna ut mauris ultricies dignissim.</description>
     </item>
@@ -43,16 +51,6 @@ categories = [&amp;quot;programming&amp;quot;,&amp;quot;lorem&amp;quot;,&amp;quo
       <pubDate>Fri, 02 Oct 2015 21:49:20 +0200</pubDate>
       
       <guid>https://ckzer.github.io/teamWebPage/container/linked-post/</guid>
-      <description>I&amp;rsquo;m a linked post in the menu. You can add other posts by adding the following line to the frontmatter:
-menu = &amp;quot;main&amp;quot;  Lorem ipsum dolor sit amet, consectetur adipiscing elit. In mauris nulla, vestibulum vel auctor sed, posuere eu lorem. Aliquam consequat augue ut accumsan mollis. Suspendisse malesuada sodales tincidunt. Vivamus sed erat ac augue bibendum porta sed id ipsum. Ut mollis mauris eget ligula sagittis cursus. Aliquam id pharetra tellus.</description>
-    </item>
-    
-    <item>
-      <title>Linked post</title>
-      <link>https://ckzer.github.io/teamWebPage/git/linked-post/</link>
-      <pubDate>Fri, 02 Oct 2015 21:49:20 +0200</pubDate>
-      
-      <guid>https://ckzer.github.io/teamWebPage/git/linked-post/</guid>
       <description>I&amp;rsquo;m a linked post in the menu. You can add other posts by adding the following line to the frontmatter:
 menu = &amp;quot;main&amp;quot;  Lorem ipsum dolor sit amet, consectetur adipiscing elit. In mauris nulla, vestibulum vel auctor sed, posuere eu lorem. Aliquam consequat augue ut accumsan mollis. Suspendisse malesuada sodales tincidunt. Vivamus sed erat ac augue bibendum porta sed id ipsum. Ut mollis mauris eget ligula sagittis cursus. Aliquam id pharetra tellus.</description>
     </item>
